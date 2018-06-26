@@ -4,6 +4,7 @@
 
 #export("content") {
 	<div class="welcome">
+        <img src="/images/adv1.pg">
 		<img src="/images/it-works.png">
 	</div>
 }
