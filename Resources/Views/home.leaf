@@ -1,0 +1,475 @@
+#extend("allbase")
+
+#export("title") { All Blue }
+
+#export("content") {
+<header>
+<div class="navbar navbar-dark bg-dark box-shadow">
+<div class="container-allblue container d-flex justify-content-between">
+<a href="#" class="navbar-brand d-flex align-items-center">
+<img class="logo" src="http://www.allbluevr.com/wp-content/uploads/2017/05/Logom-1.png">
+</a>
+<div class="col-4 d-flex justify-content-end align-items-center">
+<div class="search ">
+<span class="icon">
+<i class="fas fa-search"></i>
+</span>
+<input class="form-control" type="search" id="search" placeholder="Search"/>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main role="main">
+<section id="banners">
+<div class="album py-5 bg-light">
+<div class="container">
+<div class="row">
+<article id="prop-one">
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/adv2-1.png">
+</div>
+</article>
+</div>
+<div class="row">
+<article class="card-item">
+<div class="card mb-4 box-shadow card-item-child">
+<img class="card-img-top item-select" src="images/boku-no-hero-academia-14.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+<!-- <a href="#"><div>Mangá</div></a> -->
+</div>
+</article>
+<article class="card-item">
+<div class="card mb-4 box-shadow card-item-child">
+<img class="card-img-top item-select" src="images/Pantera-Negra.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+<!-- <a href="#"><div>Filmes & Series</div></a> -->
+</div>
+</article>
+<article class="card-item">
+<div class="card mb-4 box-shadow card-item-child">
+<img class="card-img-top item-select" src="images/OpCapa.jpg" data-src="holder.js/100px225? theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+<!-- <a href="#"><div>Anime</div></a> -->
+</div>
+</article>
+<article class="card-item">
+<div class="card mb-4 box-shadow card-item-child">
+<img class="card-img-top item-select" src="images/guerra-civil.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<h5>"É a coisa mais dificil que ela poderia ouvir", diz diretor sobre os pais de Rey.</h5>
+<!-- <a href="#"><div>Comics</div></a> -->
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section id="menu">
+<div class="container-allblue container">
+<div class="menu nav-scroller py-1 mb-2">
+<nav class="nav d-flex justify-content-between">
+<a class="all-2 text-muted" href="#">Anime</a>
+<a class="all-2 text-muted" href="#">Mangá</a>
+<a class="all-2 text-muted" href="#">Comics</a>
+<a class="all-2 text-muted" href="#">Filmes & Series</a>
+<a class="all-2 text-muted" href="#">Quiz</a>
+<a class="all-2 text-muted" href="#">Listas</a>
+<a class="all-2 text-muted" href="#">All Blue Cast</a>
+</nav>
+</div>
+</div>
+</section>
+<section id="posts">
+<div class="container-allblue container">
+<div class="row mb-2">
+<div class="col-md-9">
+<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="post-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body post-body d-flex flex-column align-items-start">
+<div class="row posts-tipos">
+<strong class="d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted post-data">Nov 12</div>
+</div>
+<h5 class="mb-0">
+<a class="text-dark post-title" href="#">Featured post</a>
+</h5>
+<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="post-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body post-body d-flex flex-column align-items-start">
+<div class="row posts-tipos">
+<strong class="d-inline-block mb-2 text-success">Design</strong>
+<div class="mb-1 text-muted post-data">Nov 11</div>
+</div>
+<h5 class="mb-0">
+<a class="text-dark post-title" href="#">Featured post</a>
+</h5>
+<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="post-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body post-body d-flex flex-column align-items-start">
+<div class="row posts-tipos">
+<strong class="d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted post-data">Nov 12</div>
+</div>
+<h5 class="mb-0">
+<a class="text-dark post-title" href="#">Featured post</a>
+</h5>
+<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="post-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body post-body d-flex flex-column align-items-start">
+<div class="row posts-tipos">
+<strong class="d-inline-block mb-2 text-success">Design</strong>
+<div class="mb-1 text-muted post-data">Nov 11</div>
+</div>
+<h5 class="mb-0">
+<a class="text-dark post-title" href="#">Featured post</a>
+</h5>
+<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="post-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body post-body d-flex flex-column align-items-start">
+<div class="row posts-tipos">
+<strong class="d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted post-data">Nov 12</div>
+</div>
+<h5 class="mb-0">
+<a class="text-dark post-title" href="#">Featured post</a>
+</h5>
+<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card post-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="post-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body post-body d-flex flex-column align-items-start">
+<div class="row posts-tipos">
+<strong class="d-inline-block mb-2 text-success">Design</strong>
+<div class="mb-1 text-muted post-data">Nov 11</div>
+</div>
+<h5 class="mb-0">
+<a class="text-dark post-title" href="#">Featured post</a>
+</h5>
+<p class="post-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<article>
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/adv1-1.png">
+</div>
+</article>
+<article>
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/Camiseta-all-blue.jpg">
+</div>
+</article>
+<article>
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/adv3-1.png">
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section id="feed">
+<div class="container-allblue container">
+<div class="album py-5 bg-light">
+<div class="row">
+<div class="col-md-4">
+<div class="row">
+<div class="col-md-12 feed-tipos">
+<p class="feed-topics">Anime</p>
+</div>
+</div>
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/allbluecast.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">\#04 - Trio Monstro</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="row">
+<div class="col-md-12 feed-tipos">
+<p class="feed-topics">Anime</p>
+</div>
+</div>
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/nami.png" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">\#06 - Imediata</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="row">
+<div class="col-md-12 feed-tipos">
+<p class="feed-topics">Anime</p>
+</div>
+</div>
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/filhosbm.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">\#66 - Filhos da BigLocona</p>
+</div>
+</article>
+</div>
+</div>
+</div>
+<div class="row">
+<article id="prop-one">
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/adv2.png">
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section id="best">
+<div class="container-allblue container">
+<div class="album py-5 bg-light">
+<div class="col-md-12 best-topics">
+<p class="best-title">Canal</p>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/thumb01.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">ADEUS KATAKURI - One Piece 896</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/thumb04.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">GOKU MESTRE DO INSTINTO SUPERIOR - Dragon Ball Super 129</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/thumb05.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">A ALIANÇA MAFIOSA DE LUFFY E CAPONE - One Piece 827</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/thumb02.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">ADEUS KATAKURI - One Piece 896</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/thumb03.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">GOKU MESTRE DO INSTINTO SUPERIOR - Dragon Ball Super 129</p>
+</div>
+</article>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feed-card card mb-4 box-shadow">
+<article class="feed-article">
+<img class="card-img-top item-select" src="images/thumb06.jpg" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+<div class="feed-body card-body">
+<p class="feed-title card-text">A ALIANÇA MAFIOSA DE LUFFY E CAPONE - One Piece 827</p>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="all">
+<div class="container-allblue container">
+<div class="row mb-2">
+<div class="col-md-12">
+<div class="col-md-9 best-topics">
+<p class="all-chanel">+ Feed</p>
+</div>
+</div>
+<div class="col-md-4 all-margin">
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-success">Design</strong>
+<div class="mb-1 text-muted all-data">Nov 11</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4 all-margin">
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-success">Design</strong>
+<div class="mb-1 text-muted all-data">Nov 11</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+<div class="card all-card flex-md-row mb-4 box-shadow h-md-250">
+<img class="all-auto flex-auto d-none d-lg-block" src="images/posts.png" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+<div class="card-body all-body d-flex flex-column align-items-start">
+<div class="row all-tipos">
+<strong class="all-title d-inline-block mb-2 text-primary">World</strong>
+<div class="mb-1 text-muted all-data">Nov 12</div>
+</div>
+<p class="all-text card-text text-muted mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<article>
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/adv1.png">
+</div>
+</article>
+</div>
+</div>
+<div class="row">
+<article id="prop-one">
+<div class="card mb-4 box-shadow card-prop">
+<img src="images/adv2.png">
+</div>
+</article>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="text-muted">
+<div class="container">
+<div class="row footer-alin">
+<a href="#" class="navbar-brand d-flex align-items-center">
+<img class="logo" src="http://www.allbluevr.com/wp-content/uploads/2017/05/Logom-1.png">
+</a>
+<div class="footer-link">
+<a href="#">Sobre o AllBlue</a>
+<a href="#">MidiaKit</a>
+<a href="#">Conheça o canal</a>
+<a href="#">Matheus Mendonça</a>
+</div>
+<div class="float-right">
+<a href="#">
+<i href="\#topo" class="far fa-arrow-alt-circle-up"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script>window.jQuery || document.write('<script src="scripts/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="scripts/vendor/popper.min.js"></script>
+<script src="scripts/vendor/holder.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+}
+
